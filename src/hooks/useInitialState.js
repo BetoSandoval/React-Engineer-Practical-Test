@@ -7,7 +7,7 @@ const useInitialState = (API) => {
       fetch(API)
       .then(Response => Response.json())
       .then( data => setBanks(data));
-    }, []);
+    },[API]);
 
     return  banks;
 }
