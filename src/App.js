@@ -1,20 +1,16 @@
-import React, { useState,useEffect } from 'react'
+import React from 'react';
 import BankItem from './Components/BankItem';
+import useInitialState from './hooks/useInitialState';
 
+const API = 'https://api.jsonbin.io/b/604006e581087a6a8b95b784';
 
 export default function App() {
-  const [banks, setBanks] = useState([]);
+  const initialState = useInitialState(API);
 
-  useEffect(()=>{
-    fetch('https://api.jsonbin.io/b/604006e581087a6a8b95b784')
-    .then(Response => Response.json())
-    .then( data => setBanks(data));
-  }, []);
-  
   return (
     <div>
       <div className='banks__allItems'>
-        {banks.map( (item, index) => (
+        {initialState.map( (item, index) => (
           <BankItem
             key={index}
             name={item.bankName}
