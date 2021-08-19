@@ -8,4 +8,4 @@ En el proyecto implemente el patron custom hooks para abstraer la logica del con
 
 ### `Styled Components`
 
-Use la dependencia styled components mediante implemente estilos a los elementos del sitio web.
+Use la dependencia styled components con la cual implemente estilos a los elementos del sitio web.
