@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Engineer-Practical-Test/static/css/main.421fc7fe.chunk.css",
+    "main.js": "/React-Engineer-Practical-Test/static/js/main.738fc432.chunk.js",
+    "main.js.map": "/React-Engineer-Practical-Test/static/js/main.738fc432.chunk.js.map",
+    "runtime-main.js": "/React-Engineer-Practical-Test/static/js/runtime-main.61057257.js",
+    "runtime-main.js.map": "/React-Engineer-Practical-Test/static/js/runtime-main.61057257.js.map",
+    "static/js/2.00f23024.chunk.js": "/React-Engineer-Practical-Test/static/js/2.00f23024.chunk.js",
+    "static/js/2.00f23024.chunk.js.map": "/React-Engineer-Practical-Test/static/js/2.00f23024.chunk.js.map",
+    "index.html": "/React-Engineer-Practical-Test/index.html",
+    "static/css/main.421fc7fe.chunk.css.map": "/React-Engineer-Practical-Test/static/css/main.421fc7fe.chunk.css.map",
+    "static/js/2.00f23024.chunk.js.LICENSE.txt": "/React-Engineer-Practical-Test/static/js/2.00f23024.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61057257.js",
+    "static/js/2.00f23024.chunk.js",
+    "static/css/main.421fc7fe.chunk.css",
+    "static/js/main.738fc432.chunk.js"
+  ]
+}
